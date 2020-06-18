@@ -25,7 +25,7 @@ class Header extends Component {
           <nav className="Wrap-Menu">
             <a
               onClick={this.openMenu}
-              className="btnMenu btnMenu_open" href="#menu">
+              className="btnMenu btnMenu_open" href="/">
               Menu
             </a>
             <ul className="menu">
