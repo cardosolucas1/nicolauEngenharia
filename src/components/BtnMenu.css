@@ -2,7 +2,7 @@
   display: block;
   background-repeat: no-repeat;
   background-position: 15px center;
-  background-size: 12%;
+  background-size: 50px;
   padding: 20px 15px;
   text-indent: -9999px;
 }
@@ -14,6 +14,21 @@
 }
 
 .btnMenu_close {
-  background-color: #ffd65b;
+  background-color: #F05722;
   background-image: url('../icon-menu-branco.svg');
+  cursor: pointer;
+}
+
+@media screen and ( min-width: 991px ) {
+
+  .btnMenu_open {
+    background-image: url('../images/logo.png');
+    background-size: 70px;
+    display: flex;
+    width: 50px;
+  }
+
+  .btnMenu_close {
+    display: none;
+  }
 }

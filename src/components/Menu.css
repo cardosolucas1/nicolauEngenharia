@@ -12,15 +12,35 @@
 
 
 .menu-item {
-  border-bottom: 1px solid #ffd75fc0;
+  border-bottom: 1px solid #F05722;
+  transition: background-color 0.3s;
   padding: 20px 15px;
   list-style: none;
 }
 
 .menu-item-action {
-  color: #ffd65b;
+  color: #F05722;
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media screen and ( min-width: 991px ) {
+
+  .menu {
+    transform: translateX(0);
+  }
+
+  .menu-item {
+    border-bottom: none;
+  }
+
+  .menu-item-action:hover {
+    color: black;
+  }
+
+  .menu-item-action {
+    font-size: 15px;
+  }
 }
