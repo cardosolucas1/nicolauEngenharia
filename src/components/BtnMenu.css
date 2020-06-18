@@ -1,8 +1,8 @@
 .btnMenu {
-  display: block;
-  background-repeat: no-repeat;
   background-position: 15px center;
+  background-repeat: no-repeat;
   background-size: 50px;
+  display: block;
   padding: 20px 15px;
   text-indent: -9999px;
 }

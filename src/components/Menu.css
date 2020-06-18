@@ -1,9 +1,9 @@
 .menu {
   position: absolute;
   top: 0;
-  width: 100%;
   transform: translateX(-100%);
   transition: transform 350ms linear;
+  width: 100%;
 }
 
 .menu_open {
@@ -13,9 +13,9 @@
 
 .menu-item {
   border-bottom: 1px solid #F05722;
-  transition: background-color 0.3s;
-  padding: 20px 15px;
   list-style: none;
+  padding: 20px 15px;
+  transition: background-color 0.3s;
 }
 
 .menu-item-action {
