@@ -23,11 +23,11 @@ class Header extends Component {
     return (
       <header className="heading">
           <nav className="Wrap-Menu">
-            <a
+            <div
               onClick={this.openMenu}
-              className="btnMenu btnMenu_open" href="/">
+              className="btnMenu btnMenu_open">
               Menu
-            </a>
+            </div>
             <ul className="menu">
               <li onClick={this.closeMenu}className="btnMenu btnMenu_close">Sair</li>
               <li className="menu-item">

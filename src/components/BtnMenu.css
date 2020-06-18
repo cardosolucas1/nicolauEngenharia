@@ -10,7 +10,7 @@
 .btnMenu_open {
   background-color: white;
   background-image: url('../icon-menu-laranja.svg');
-
+  cursor: pointer;
 }
 
 .btnMenu_close {
