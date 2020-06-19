@@ -1,17 +1,18 @@
 .menu {
   position: absolute;
   top: 0;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
   transition: transform 350ms linear;
   width: 100%;
 }
 
 .menu_open {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 
 .menu-item {
+  background-color: white;
   border-bottom: 1px solid #F05722;
   list-style: none;
   padding: 20px 15px;
@@ -29,7 +30,7 @@
 @media screen and ( min-width: 991px ) {
 
   .menu {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   .menu-item {

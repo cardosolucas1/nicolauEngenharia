@@ -9,23 +9,23 @@
 
 .btnMenu_open {
   background-color: white;
-  background-image: url('../icon-menu-laranja.svg');
+  background-image: url('../../icon-menu-laranja.svg');
   cursor: pointer;
 }
 
 .btnMenu_close {
   background-color: #F05722;
-  background-image: url('../icon-menu-branco.svg');
+  background-image: url('../../icon-menu-branco.svg');
   cursor: pointer;
 }
 
 @media screen and ( min-width: 991px ) {
 
   .btnMenu_open {
-    background-image: url('../images/logo.png');
+    background-image: url('../../images/logo.png');
+    width: 100%;
     background-size: 70px;
     display: flex;
-    width: 50px;
   }
 
   .btnMenu_close {

@@ -1,0 +1,28 @@
+.introduction {
+  background-image: url('../../images/city.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  margin-left: 3%;
+}
+
+.title {
+  border-bottom: 4px solid #ffd65b;
+  color: white;
+  font-size: 5vh;
+  font-weight: 800;
+  min-height: 30px;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  max-width: 80%;
+}
+
+.subtitle {
+  color: white;
+  font-size: 0.8em;
+  margin-left: 1%;
+}

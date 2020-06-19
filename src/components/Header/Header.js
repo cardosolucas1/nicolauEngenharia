@@ -6,9 +6,6 @@ import './Reset.css';
 import './Header.css';
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
   openMenu() {
     const menuBar = document.querySelector('.menu');
     menuBar.className = 'menu menu_open';
