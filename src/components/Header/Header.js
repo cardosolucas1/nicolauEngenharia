@@ -23,10 +23,11 @@ class Header extends Component {
             <div
               onClick={this.openMenu}
               className="btnMenu btnMenu_open">
-              Menu
             </div>
             <ul className="menu">
-              <li onClick={this.closeMenu}className="btnMenu btnMenu_close">Sair</li>
+              <li onClick={this.closeMenu}className="btnMenu btnMenu_close">
+                  <img onClick={this.closeMenu}  src={require('../../images/sairicon.png')} className="menu-exit" />
+              </li>
               <li className="menu-item">
                 <Link className="menu-item-action" to="/sobre">Sobre nós</Link>
               </li>
@@ -35,6 +36,12 @@ class Header extends Component {
               </li>
               <li className="menu-item">
                 <Link className="menu-item-action" to="/contato">Contato</Link>
+              </li>
+              <li className="menu-item">
+                <Link className="menu-item-action" to="/links">Links úteis</Link>
+              </li>
+              <li className="menu-item">
+                <Link className="menu-item-action" to="/projetos">Projetos</Link>
               </li>
             </ul>
           </nav>

@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
-  margin-left: 3%;
+  height: 250px;
+  margin: 0 0 3% 3%;
 }
 
 .title {
@@ -25,4 +25,21 @@
   color: white;
   font-size: 0.8em;
   margin-left: 1%;
+}
+
+@media screen and ( min-width: 991px ) {
+  .introduction {
+    height: 500px;
+  }
+
+
+.title {
+  font-size: 8vh;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
 }
