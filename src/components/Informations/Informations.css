@@ -1,0 +1,37 @@
+.infoBar {
+  align-items: flex-start;
+  display: flex;
+  color: white;
+  background-image: url('../../images/computerOp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 700px;
+  margin-right: 3%;
+}
+
+.title-section {
+  border-bottom: 3px solid #ffd65b;
+  font-size: 3vh;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.infoContactBar {
+  align-self: flex-end;
+  font-size: 1.5em;
+  margin-right: 10px;
+  text-align: end;
+}
+
+.contact-title {
+  color: #ffd65b;
+  font-weight: 800;
+}
+
+.infoContact {
+  margin-bottom: 50px;
+}
+
