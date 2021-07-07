@@ -1,12 +1,7 @@
-.heading {
-  box-shadow: 0 1px 5px #F28728 , 0 0px 5px 0 #F28728;
-  width: 100%;
+.navbar-brand {
+  font-weight: 800;
 }
 
-@media screen and ( min-width: 991px ) {
-
-  .heading nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
+.nav-link {
+  margin-left: 40px;
 }

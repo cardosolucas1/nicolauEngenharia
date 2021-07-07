@@ -3,43 +3,42 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 250px;
   margin: 0 0 3% 3%;
+  min-height: 200px;
 }
 
 .title {
   border-bottom: 4px solid #ffd65b;
-  color: white;
   font-size: 5vh;
   font-weight: 800;
   min-height: 30px;
   margin-left: 1%;
   margin-bottom: 2%;
-  max-width: 80%;
+  max-width: 50%;
 }
 
 .subtitle {
-  color: white;
   font-size: 0.8em;
   margin-left: 1%;
 }
 
 @media screen and ( min-width: 991px ) {
+
   .introduction {
     height: 500px;
   }
 
+  .title {
+    font-size: 8vh;
+    font-weight: 800;
+  }
 
-.title {
-  font-size: 8vh;
-  font-weight: 800;
+  .subtitle {
+    font-size: 1.5em;
+  }
 }
 
-.subtitle {
-  font-size: 1.5em;
-}
-
-}
